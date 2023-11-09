@@ -74,18 +74,17 @@ RegisterNumber:  212222230002
 ```
 ### 1x4 Multiplexer:
 ```
-module mux(I0,I1,I2,I3,S0,S1,Y);
+module multiplexer(I0,I1,I2,I3,S0,S1,Y);
 input I0,I1,I2,I3,S0,S1;
 output Y;
-wire S0C,S1C;
-not (S0C,S0);
-not (S1C,S1);
-wire P,Q,R,S;
-and (P,S0C,S1C,I0);
-and (Q,S0C,S1,I1);
-and (R,S0,S1C,I2);
-and (S,S0,S1,I3);
-or (Y,P,Q,R,S);
+wire P,Q,R,S,S0c,S1c;
+not(S0c,S0);
+nor(S1c,S1);
+and(P,S0c,S1c,I0);
+and(Q,S0c,S1,I1);
+and(R,S0,S1c,I2);
+and(S,S0,S1,I3);
+or(Y,P,Q,R,S);
 endmodule
 ```
 ### 4x1 Demultiplexer:
@@ -101,29 +100,27 @@ and (Y1,I,S0C,S1);
 and (Y2,I,S0,S1C);
 and (Y3,I,S0,S1);
 endmodule
-
 ```
 
 ## RTL LOGIC  
 
 ### 1x4 Multiplexer:
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee width=650 height=650>
-
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/7d3a50b4-d079-4348-a54c-86124309b9d9)
 
 ### 4x1 Demultiplexer:
 
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/c755724e-5f1f-4196-bddf-c5e0d166dc31 width=450 height=450>
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b91bb807-49d8-44ee-9ca8-95d184ed0d64)
 
 
 ## TIMING DIGRAMS  
 
 ### 1x4 Multiplexer:
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e31a06fc-45d1-4f34-b8f7-f1ae4f38397c width=750 height=750>
-
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e1ed22ae-46c1-41ef-8a9e-c87f0b049a70)
 
 
 ### 4x1 Demultiplexer:
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b6d0030c-515d-4147-8d7b-0286241122c1 width=450 height=450>
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/8bbdfd9a-f5ee-451e-8ba5-27acc6662029)
+
 
 
 
@@ -131,13 +128,15 @@ endmodule
 
 ### 4x1 Demultiplexer:
 
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e8258ffb-4632-4bc6-8239-1d16d9d1a93b width=450 height=450>
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/d4237c65-7cb9-4592-a1b8-9fa20c0fe422)
+
 
 
 
 ### 1x4 Multiplexer:
 
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/ff12660e-bb08-427e-bb1c-6ada9113f0c9 width=450 height=450>
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/959c5c84-8819-42aa-9a17-ca25de91c701)
+
 
 ## RESULTS 
 Hence, 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
