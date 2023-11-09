@@ -127,15 +127,12 @@ endmodule
 ## TRUTH TABLE 
 
 ### 4x1 Demultiplexer:
-
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/d4237c65-7cb9-4592-a1b8-9fa20c0fe422)
-
-
+![de](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/8834a597-4914-4daa-8978-9303d70ec113)
 
 
 ### 1x4 Multiplexer:
 
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/959c5c84-8819-42aa-9a17-ca25de91c701)
+![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/711f64ee-2bd2-4b69-a8ea-fbdac75c9dbe)
 
 
 ## RESULTS 
