@@ -1,4 +1,9 @@
-## Exercise-07 Multiplexer and De multiplexer
+```
+ABINAYA S
+212222230002
+```
+
+## Exercise 07 Multiplexer and De multiplexer
 
 ## AIM: 
 To implement 4 X1 multiplexer and 1X4 de multiplexer using verilog and validate its outputs
@@ -55,7 +60,7 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
 ## Procedure
 ```
-/* write all the steps invloved */
+
 1.Start the module using module projname().
 2.Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
 3.Use wire to assign intermediate outputs.
@@ -66,11 +71,10 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 ```
 ## PROGRAM 
 ```
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: ABINAYA S
-RegisterNumber:  212222230002
-*/
+
+
 ```
 ### 1x4 Multiplexer:
 ```
