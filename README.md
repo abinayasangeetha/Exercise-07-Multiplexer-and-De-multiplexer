@@ -107,7 +107,7 @@ endmodule
 ## RTL LOGIC  
 
 ### 1x4 Multiplexer:
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee width=800 height=800>
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee width=650 height=650>
 
 
 ### 4x1 Demultiplexer:
@@ -118,7 +118,7 @@ endmodule
 ## TIMING DIGRAMS  
 
 ### 1x4 Multiplexer:
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e31a06fc-45d1-4f34-b8f7-f1ae4f38397c width=450 height=450>
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e31a06fc-45d1-4f34-b8f7-f1ae4f38397c width=650 height=650>
 
 
 
