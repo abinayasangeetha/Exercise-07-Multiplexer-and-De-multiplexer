@@ -107,24 +107,23 @@ endmodule
 ## RTL LOGIC  
 
 ### 1x4 Multiplexer:
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee)
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee width=450 height=450>
 
 
 ### 4x1 Demultiplexer:
 
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/c755724e-5f1f-4196-bddf-c5e0d166dc31)
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/c755724e-5f1f-4196-bddf-c5e0d166dc31 width=450 height=450>
 
 
 ## TIMING DIGRAMS  
 
 ### 1x4 Multiplexer:
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e31a06fc-45d1-4f34-b8f7-f1ae4f38397c)
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e31a06fc-45d1-4f34-b8f7-f1ae4f38397c width=450 height=450>
 
 
 
 ### 4x1 Demultiplexer:
-
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b6d0030c-515d-4147-8d7b-0286241122c1)
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b6d0030c-515d-4147-8d7b-0286241122c1 width=450 height=450>
 
 
 
@@ -132,13 +131,13 @@ endmodule
 
 ### 4x1 Demultiplexer:
 
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e8258ffb-4632-4bc6-8239-1d16d9d1a93b)
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/e8258ffb-4632-4bc6-8239-1d16d9d1a93b width=450 height=450>
 
 
 
 ### 1x4 Multiplexer:
 
-![image](https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/ff12660e-bb08-427e-bb1c-6ada9113f0c9)
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/ff12660e-bb08-427e-bb1c-6ada9113f0c9 width=450 height=450>
 
 ## RESULTS 
 Hence, 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
