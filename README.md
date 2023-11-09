@@ -107,7 +107,7 @@ endmodule
 ## RTL LOGIC  
 
 ### 1x4 Multiplexer:
-<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee width=450 height=450>
+<img src=https://github.com/abinayasangeetha/Exercise-07-Multiplexer-and-De-multiplexer/assets/119393675/b12c9b2e-5ba1-40c3-accc-d1814f9610ee width=500 height=500>
 
 
 ### 4x1 Demultiplexer:
